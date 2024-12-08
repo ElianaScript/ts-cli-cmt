@@ -1,2 +1,1 @@
-# ts-cli-cmt
-A TypeScript command line application where users create or use existing vehicles to perform specific actions.
+### TypeScript Command Line Application - Cars, Motorbikes, or Trucks
