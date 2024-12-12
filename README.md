@@ -16,3 +16,6 @@ Create a new vehicle or use an existing one. If you select create a new one, the
 
 ## License
 Please refer to LICENSE in repository (MIT LICENSE).
+
+## Walk-through video
+
