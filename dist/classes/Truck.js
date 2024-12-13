@@ -1,6 +1,6 @@
 // import the Vehicle, Motorbike, Car, Wheel, and AbleToTow classes/interfaces
-import Vehicle from './Vehicle';
-import Wheel from '../Wheel';
+import Vehicle from './Vehicle.js';
+import Wheel from '../Wheel.js';
 class Truck extends Vehicle {
     constructor(vin, color, make, model, year, weight, topSpeed, towingCapacity, wheels) {
         super();
