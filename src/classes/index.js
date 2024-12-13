@@ -9,7 +9,8 @@ var Cli_ts_1 = require("./Cli");
 // create an array of vehicles
 var vehicles = [];
 // TODO: uncomment once trucks are implemented
-var truck1 = new Truck_ts_1.default(Cli_ts_1.default.generateVin(), "red", "Ford", "F-150", 2021, 5000, 120, 10000, []);
+// @ts-ignore
+var truck1 = new Truck_ts_1.default(Cli_ts_1.default.generateVin(), "red", "Ford", "F-150", 2021, 5000, 120, [], 10000);
 // will use default wheels
 var car1 = new Car_ts_1.default(Cli_ts_1.default.generateVin(), 'blue', 'Toyota', 'Camry', 2021, 3000, 130, []);
 // TODO: uncomment once motorbikes are implemented
@@ -22,6 +23,7 @@ vehicles.push(car1);
 // TODO: uncomment once motorbikes are implemented
 vehicles.push(motorbike1);
 // create a new instance of the Cli class
+// @ts-ignore
 var cli = new Cli_ts_1.default(vehicles);
 // start the cli
 cli.startCli();
